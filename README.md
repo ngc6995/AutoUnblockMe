@@ -2,8 +2,7 @@
 
 ## Introduction
 
-"Unblock Me" is a popular puzzle game where players aim to free a red block from a cluttered grid by sliding other blocks horizontally or vertically.  
-The goal is to clear a path for the red block to reach the designated exit with the fewest moves possible.
+"Unblock Me" is a popular puzzle game where players aim to free a red block from a cluttered grid by sliding other blocks horizontally or vertically. The goal is to clear a path for the red block to reach the designated exit with the fewest moves possible.
 
 This game is available for free from the Microsoft Store.  
 https://apps.microsoft.com/detail/9nblggh189f2
@@ -14,9 +13,7 @@ https://apps.microsoft.com/detail/9nblggh189f2
     <img src="image_03.png" alt="Image 03" width="250"/>
 </div>
 
-"Unblock Me" is one of my favorite puzzle games. A few years ago, I wrote a solver for these puzzles using Prolog. While it works, it lacks a graphical user  
-interface,  so I have to input puzzles manually and step through the solutions. This is inconvenient to use! I am considering developing an app that  
-automates the entire process: automatically recognizing the puzzle, finding a solution, and then moving the blocks automatically once a solution is found.
+"Unblock Me" is one of my favorite puzzle games. A few years ago, I wrote a solver for these puzzles using Prolog. While it works, it lacks a graphical user interface,  so I have to input puzzles manually and step through the solutions. This is inconvenient to use! I am considering developing an app that automates the entire process: automatically recognizing the puzzle, finding a solution, and then moving the blocks automatically once a solution is found.
 
 ## How it works
 
@@ -28,8 +25,7 @@ automates the entire process: automatically recognizing the puzzle, finding a so
 
 4. Use the A* search algorithm to find the solution, where the heuristic function considers the distance and obstacles between the target block and the exit.
 
-5. Display the steps to solve the puzzle and automatically move the blocks in the game window. I have tried several mouse packages for drag-and-drop functionality,  
-but they are not suitable for game interaction, except for the `mousekey` package.
+5. Display the steps to solve the puzzle and automatically move the blocks in the game window. I have tried several mouse packages for drag-and-drop functionality, but they are not suitable for game interaction, except for the `mousekey` package.
 
 ## How to use
 
