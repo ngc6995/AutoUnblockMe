@@ -25,7 +25,7 @@ https://apps.microsoft.com/detail/9nblggh189f2
 
 4. Use the A* search algorithm to find the solution, where the heuristic function considers the distance and obstacles between the target block and the exit.
 
-5. Display the steps to solve the puzzle and automatically move the blocks in the game window. I have tried several mouse packages for drag-and-drop functionality, but they are not suitable for game interaction, except for the `mousekey` package.
+5. Display the steps to solve the puzzle and automatically move the blocks in the game window. I have tried several mouse modules for drag-and-drop functionality, but they are not suitable for game interaction, except for the `mousekey` module.
 
 ## How to use
 
