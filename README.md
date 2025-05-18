@@ -8,9 +8,9 @@ This game is available for free from the Microsoft Store.
 https://apps.microsoft.com/detail/9nblggh189f2
 
 <div style="display: flex; gap: 10px;">
-    <img src="image_01.png" alt="Image 01" width="320"/>
-    <img src="image_02.png" alt="Image 02" width="320"/>
-    <img src="image_03.png" alt="Image 03" width="320"/>
+    <img src="image_01.png" alt="Image 01" width="300"/>
+    <img src="image_02.png" alt="Image 02" width="300"/>
+    <img src="image_03.png" alt="Image 03" width="300"/>
 </div>
 
 "Unblock Me" is one of my favorite puzzle games. A few years ago, I wrote a solver for these puzzles using Prolog. While it works, it lacks a graphical user interface,  so I have to input puzzles manually and step through the solutions. This is inconvenient to use! I am considering developing an app that automates the entire process: automatically recognizing the puzzle, finding a solution, and then moving the blocks automatically once a solution is found.
